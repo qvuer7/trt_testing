@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from models.unet.utils import predict_img
 device = torch.device('cpu')
-
+#12
 
 model = UNet(n_channels = 3, n_classes = 2)
 checkpoint = torch.load(r'C:\Users\Andrii\PycharmProjects\trt_experiments\models\unet\weights\unet_carvana_scale0.5_epoch2.pth',
